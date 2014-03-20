@@ -15,7 +15,7 @@ import bip21
 ###Usage
 There is only one function:
 
-create_BIP21_URI(address, label=None, amount=None, message=None)
+create_BIP21_URI(address, label, amount, message)
 
 The address param is required. Must be valid bitcoin address.
 All other params are optional
